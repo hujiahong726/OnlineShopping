@@ -11,7 +11,7 @@ public class UserDemoConfig {
     public UserDemo defaultUser() {
         return UserDemo.builder()
                 .id(0)
-                .email("No Such user exists")
+                .email("default@gmail.com")
                 .name("default").build();
     }
 
